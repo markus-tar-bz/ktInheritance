@@ -10,4 +10,9 @@ fun main() {
 
 //you can inherit functions and constructors/variables from the parent class to child class
 //kt files have access to all classes.
+//In Kotlin, all classes are final by default. To permit the derived class to inherit from the base class,
+// we must use the open keyword in front of the base class.
+/*When we inherit a class then all the properties and functions are also inherited.
+We can use the base class variables and functions in the derived class and can also call functions using the derived class object.
+ */
 
